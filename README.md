@@ -10,7 +10,7 @@ Em um ambiente de produção mais complexo, onde as tarefas compartilham recurso
 
 
 # Reações baseadas em condições de tempo real
-No código fornecido, a tarefa "TaskReadTemperature" lê a temperatura de um sensor simulado e atualiza a variável volátil "temperature". Dependendo do valor da temperatura, as tarefas "TaskBlink2" e "TaskBlink3" acendem ou apagam LEDs conectados a pinos específicos. Se a temperatura for maior ou igual a 26.00 graus, o LED ligado ao "led_pin_2" é acionado, indicando a necessidade de ligar um ar-condicionado. Se a temperatura for menor ou igual a 10.00 graus, o LED ligado ao "led_pin_3" é acionado, indicando a necessidade de ligar um aquecedor. Essas reações em tempo real permitem um feedback visual com base na temperatura medida pelo sensor.
+No código deste projeto (apresentado abaixo), a tarefa "TaskReadTemperature" lê a temperatura de um sensor simulado e atualiza a variável volátil "temperature". Dependendo do valor da temperatura, as tarefas "TaskBlink2" e "TaskBlink3" acendem ou apagam LEDs conectados a pinos específicos, já a tarefa "TaskBlink1" acende e apaga um LED mas sem depender ou interferir nas demais tarefas. Se a temperatura for maior ou igual a 26.00 graus, o LED ligado ao "led_pin_2" é acionado, indicando a necessidade de ligar um ar-condicionado. Se a temperatura for menor ou igual a 10.00 graus, o LED ligado ao "led_pin_3" é acionado, indicando a necessidade de ligar um aquecedor. Essas reações em tempo real permitem um feedback visual com base na temperatura medida pelo sensor.
 
 
 # Vantagens
