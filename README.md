@@ -175,10 +175,12 @@ void TaskBlink3(void *pvParameters)
 <img height="500em" src="./assets/img/esquematico_em_funcionamento.png">
 </div>
 
+# Calor
 <div align=center>
 <img height="500em" src="./assets/img/esquematico_em_funcionamento_azul.png">
 </div>
 
+# Frio
 <div align=center>
 <img height="500em" src="./assets/img/esquematico_em_funcionamento_vermelho.png">
 </div>
